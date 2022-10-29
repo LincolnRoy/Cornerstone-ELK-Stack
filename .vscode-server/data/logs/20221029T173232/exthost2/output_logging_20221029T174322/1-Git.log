@@ -1,0 +1,65 @@
+[2022-10-29T17:43:28.611Z] Log level: Info
+[2022-10-29T17:43:28.618Z] [info] Validating found git in: git
+[2022-10-29T17:43:28.653Z] [info] Using git 2.34.1 from git
+[2022-10-29T17:43:28.703Z] > git rev-parse --show-toplevel [34ms]
+[2022-10-29T17:43:28.703Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T17:43:28.713Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-29T17:43:28.713Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T17:43:28.723Z] > git rev-parse --show-toplevel [5ms]
+[2022-10-29T17:43:28.723Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T17:43:28.732Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-29T17:43:28.732Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T17:43:45.549Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-29T17:43:45.549Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T17:54:57.548Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-29T17:54:57.548Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T18:42:07.834Z] > git rev-parse --show-toplevel [3ms]
+[2022-10-29T18:42:07.835Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T18:43:18.612Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-29T18:43:18.613Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T18:45:50.155Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-29T18:45:50.155Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T18:45:51.434Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-29T18:45:51.434Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T18:46:09.334Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-29T18:46:09.334Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T18:46:23.649Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-29T18:46:23.649Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T18:59:05.866Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-29T18:59:05.866Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T18:59:16.334Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-29T18:59:16.334Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T19:19:54.462Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-29T19:19:54.462Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-29T19:19:55.099Z] > git init [71ms]
+[2022-10-29T19:19:55.099Z] hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+[2022-10-29T19:19:55.106Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-29T19:19:55.111Z] > git rev-parse --git-dir --git-common-dir [0ms]
+[2022-10-29T19:19:55.122Z] [info] Open repository: /home/ubuntu
+[2022-10-29T19:19:55.159Z] > git status -z -uall [28ms]
+[2022-10-29T19:19:55.167Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-29T19:19:55.176Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+[2022-10-29T19:19:55.187Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-10-29T19:19:55.190Z] > git remote --verbose [5ms]
+[2022-10-29T19:19:55.561Z] > git config --get commit.template [16ms]
+[2022-10-29T19:19:55.638Z] > git status -z -uall [69ms]
+[2022-10-29T19:19:55.652Z] > git symbolic-ref --short HEAD [8ms]
+[2022-10-29T19:19:55.661Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+[2022-10-29T19:19:55.671Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-10-29T19:19:55.672Z] > git remote --verbose [2ms]
+[2022-10-29T19:19:55.721Z] > git config --get commit.template [5ms]
+[2022-10-29T19:19:56.128Z] > git check-ignore -v -z --stdin [16ms]
+[2022-10-29T19:19:56.161Z] > git show --textconv :d [20ms]
+[2022-10-29T19:19:56.161Z] > git ls-files --stage -- /home/ubuntu/d [15ms]
+[2022-10-29T19:19:56.631Z] > git check-ignore -v -z --stdin [3ms]
+[2022-10-29T19:19:56.781Z] > git ls-files --stage -- /home/ubuntu/d [2ms]
+[2022-10-29T19:19:56.819Z] > git show --textconv :d [2ms]

@@ -1,0 +1,21 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "files.autoSave": "afterDelay",
+    "powershell.powerShellDefaultVersion": "Windows PowerShell (x64)",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "yaml.schemas": {
+        "kubernetes": "*.yaml",
+        "file:///c%3A/Users/gvale/.vscode/extensions/docsmsft.docs-yaml-0.2.9/out/yaml-support/toc.schema.json": "/toc\\.yml/i"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "vs-kubernetes": {
+        "vscode-kubernetes.minikube-path.windows": "C:\\Users\\gvale\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+    "remote.SSH.remotePlatform": {
+        "3.87.209.41": "linux",
+        "54.227.20.6": "linux",
+        "54.196.212.19": "linux"
+    }
+}

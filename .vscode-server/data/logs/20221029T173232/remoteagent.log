@@ -1,0 +1,15 @@
+[2022-10-29 17:32:33.008] [remoteagent] [info] Extension host agent started.
+[2022-10-29 17:32:33.213] [remoteagent] [info] [127.0.0.1][d7f792e4][ManagementConnection] New connection established.
+[2022-10-29 17:32:33.262] [remoteagent] [info] [127.0.0.1][896f1d2e][ExtensionHostConnection] New connection established.
+[2022-10-29 17:32:33.277] [remoteagent] [info] [127.0.0.1][896f1d2e][ExtensionHostConnection] <1503> Launched Extension Host Process.
+[2022-10-29 17:43:19.110] [remoteagent] [info] [127.0.0.1][d7f792e4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-29 17:43:19.133] [remoteagent] [info] [127.0.0.1][896f1d2e][ExtensionHostConnection] <1503> Extension Host Process exited with code: 0, signal: null.
+[2022-10-29 17:43:19.133] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-10-29 17:43:21.701] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-10-29 17:43:21.701] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-10-29 17:43:21.862] [remoteagent] [info] [127.0.0.1][afa55006][ManagementConnection] New connection established.
+[2022-10-29 17:43:21.906] [remoteagent] [info] [127.0.0.1][11510757][ExtensionHostConnection] New connection established.
+[2022-10-29 17:43:21.911] [remoteagent] [info] [127.0.0.1][11510757][ExtensionHostConnection] <3849> Launched Extension Host Process.
+[2022-10-29 17:48:21.702] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-10-29 18:49:30.554] [remoteagent] [error] Error: connect ECONNREFUSED 127.0.0.1:9200
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
